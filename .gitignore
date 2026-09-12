@@ -1,0 +1,10 @@
+# служебное от инструментов, к сайту отношения не имеет
+.claude/
+.agents/
+skills-lock.json
+
+# мусор ОС и редакторов
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
