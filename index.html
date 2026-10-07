@@ -149,6 +149,7 @@ button{font:inherit;color:inherit}
 .act.on::after{background:var(--ember);transform:scaleX(1)}
 .aux{display:flex;gap:16px;align-items:center;flex-wrap:wrap;justify-content:center}
 .tip{color:var(--dimmer);font-family:var(--mono);font-size:11px;letter-spacing:.08em}
+.about{margin:6px 0 0;max-width:34rem;text-align:center;color:var(--dim);font-size:13px;line-height:1.5}
 .chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
 /* мелкие кнопки тоже в обводке — видно, что это кнопки, а не подписи */
 .chip{
@@ -291,6 +292,7 @@ body.noGL .flat{display:flex}
   .given{font-size:clamp(26px,6vw,40px)}
   .gloss{font-size:13px;margin-top:6px}
   .roots{display:none}          /* в щель по высоте разбор основ не лезет */
+  .about{display:none}
   .controls{margin-top:9px;gap:7px}
   .cast{padding:11px 34px;min-height:44px;font-size:15px}
   .act{padding:7px 14px;min-height:34px;font-size:12.5px}
@@ -344,6 +346,7 @@ body.noGL .flat{display:flex}
           <button class="chip" id="shk" aria-pressed="false" hidden>тряска</button>
         </div>
       </div>
+      <p class="about">Исемлек — башкирский именник. Бросьте кости, и они сложат башкирское имя для мальчика или девочки и покажут его значение.</p>
     </div>
   </section>
 
